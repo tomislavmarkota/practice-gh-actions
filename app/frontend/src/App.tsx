@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 
 function App() {
+  console.log('test');
   useEffect(() => {
     fetch('http://localhost:8000/')
       .then((res) => res.json())
